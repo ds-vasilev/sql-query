@@ -1,6 +1,12 @@
 проект для DB Browser (SQLite) находится в test1.db
 
 
+
+
+
+
+
+
 <meta name="ProgId" content="Word.Document">
 <meta name="Generator" content="Microsoft Word 14">
 <meta name="Originator" content="Microsoft Word 14">
