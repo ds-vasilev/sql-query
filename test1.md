@@ -1,4 +1,4 @@
-проект для DB Browser (SQLite) находится в test1.db
+проект для DB Browser (SQLite) находится в test1.sqbpro
 
 
 
