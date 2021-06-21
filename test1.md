@@ -503,54 +503,215 @@ SOTR.name=Zarp.name<o:p></o:p></span></p>
 
 <p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><u>Тест 5<o:p></o:p></u></b></p>
 
-<p class="MsoNormal">Есть таблица <span lang="EN-US" style="mso-ansi-language:EN-US">PAYMENTS</span>
-с выплатами зарплаты по месяцам, со следующей структурой:<o:p></o:p></p>
 
 
-Название поля | Тип | Назначение
+
+<meta name="ProgId" content="Excel.Sheet">
+<meta name="Generator" content="Microsoft Excel 12">
+<link id="Main-File" rel="Main-File" href="file:///C:\Users\Админ\AppData\Local\Temp\msohtmlclip1\01\clip.htm">
+<link rel="File-List" href="file:///C:\Users\Админ\AppData\Local\Temp\msohtmlclip1\01\clip_filelist.xml">
+<style>
+<!--table
+	{mso-displayed-decimal-separator:"\,";
+	mso-displayed-thousand-separator:" ";}
+@page
+	{margin:.75in .25in .75in .25in;
+	mso-header-margin:.3in;
+	mso-footer-margin:.3in;
+	mso-horizontal-page-align:center;}
+.font5
+	{color:black;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:204;}
+tr
+	{mso-height-source:auto;}
+col
+	{mso-width-source:auto;}
+br
+	{mso-data-placement:same-cell;}
+td
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:204;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	border:none;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	mso-protection:locked visible;
+	white-space:nowrap;
+	mso-rotate:0;}
+.xl65
+	{font-weight:700;
+	font-style:italic;}
+.xl66
+	{text-align:left;
+	white-space:normal;}
+.xl67
+	{font-weight:700;
+	font-style:italic;
+	white-space:normal;}
+.xl68
+	{font-weight:700;
+	text-align:left;
+	border:.5pt solid windowtext;
+	white-space:normal;}
+.xl69
+	{text-align:left;
+	border:.5pt solid windowtext;
+	white-space:normal;}
+.xl70
+	{font-weight:700;
+	font-style:italic;
+	text-align:left;
+	background:#D8D8D8;
+	mso-pattern:black none;
+	white-space:normal;}
+-->
+</style>
+
+
+
+
+
+Исходные данные: есть 2 таблицы user и level с соответствующим   набором полей. Структура таблиц и значения полей указаны ниже | &nbsp; | &nbsp;
 -- | -- | --
-Name | Строка | Имя сотрудника
-Date | Дата | Дата выплаты
-Amount | Число с   дробной частью | Выплаченная сумма
+Таблица   - user
+id | user_name | level_id | skill | &nbsp; | &nbsp; | &nbsp;
+1 | Anton | 1 | 900000 | &nbsp; | &nbsp; | &nbsp;
+2 | Denis | 3 | 4000 | &nbsp; | &nbsp; | &nbsp;
+3 | Petr | 2 | 50000 | &nbsp; | &nbsp; | &nbsp;
+4 | Andrey | 4 | 20 | &nbsp; | &nbsp; | &nbsp;
+5 | Olga | 1 | 600000 | &nbsp; | &nbsp; | &nbsp;
+6 | Anna | 1 | 1600000 | &nbsp; | &nbsp; | &nbsp;
+&nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;
+Таблица   - level
+id | level_name | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;
+1 | admin | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;
+2 | power_user | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;
+3 | user | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;
+4 | guest | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;
 
 
 
-<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
-
-<p class="MsoNormal">Содержимое таблицы:<o:p></o:p></p>
-
-
-Name | Date | Amount
--- | -- | --
-Петр | 2007-03-30 | 70
-Федор | 2007-03-30 | 200
-Петр | 2007-04-30 | 100
-Маша | 2007-04-30 | 250
-Федор | 2007-04-30 | 200
-Федор | 2007-05-31 | 200
-Маша | 2007-05-31 | 300
-Петр | 2007-05-31 | 100
 
 
 
-<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
 
-<p class="MsoNormal"><span style="mso-spacerun:yes">&nbsp;</span><o:p></o:p></p>
+<meta name="ProgId" content="Excel.Sheet">
+<meta name="Generator" content="Microsoft Excel 12">
+<link id="Main-File" rel="Main-File" href="file:///C:\Users\Админ\AppData\Local\Temp\msohtmlclip1\01\clip.htm">
+<link rel="File-List" href="file:///C:\Users\Админ\AppData\Local\Temp\msohtmlclip1\01\clip_filelist.xml">
+<style>
+<!--table
+	{mso-displayed-decimal-separator:"\,";
+	mso-displayed-thousand-separator:" ";}
+@page
+	{margin:.75in .7in .75in .7in;
+	mso-header-margin:.3in;
+	mso-footer-margin:.3in;}
+.font5
+	{color:black;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:italic;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:204;}
+.font6
+	{color:black;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:italic;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:204;}
+tr
+	{mso-height-source:auto;}
+col
+	{mso-width-source:auto;}
+br
+	{mso-data-placement:same-cell;}
+td
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:204;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	border:none;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	mso-protection:locked visible;
+	white-space:nowrap;
+	mso-rotate:0;}
+.xl65
+	{border:.5pt solid windowtext;}
+.xl66
+	{border:.5pt solid windowtext;
+	white-space:normal;}
+.xl67
+	{font-weight:700;
+	font-style:italic;
+	border:.5pt solid windowtext;
+	white-space:normal;}
+.xl68
+	{font-style:italic;
+	border:.5pt solid windowtext;
+	background:#EAF1DD;
+	mso-pattern:black none;}
+.xl69
+	{font-style:italic;
+	border:.5pt solid windowtext;
+	background:#EAF1DD;
+	mso-pattern:black none;
+	white-space:normal;}
+-->
+</style>
 
-<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><u>Решение</u></b><b style="mso-bidi-font-weight:normal"><u><span lang="EN-US" style="mso-ansi-language:
-EN-US">:<o:p></o:p></span></u></b></p>
 
-<p class="MsoNormal"><span lang="EN-US" style="mso-ansi-language:EN-US">select
-SOTR.Name, sum(Amount) from SOTR join PAYMENTS on SOTR.name=PAYMENTS.name group
-by SOTR.name<o:p></o:p></span></p>
 
-<p class="MsoNormal">union <o:p></o:p></p>
 
-<p class="MsoNormal"><span lang="EN-US" style="mso-ansi-language:EN-US">select
-SOTR.Name, COALESCE(Amount, 0) from SOTR left join PAYMENTS on
-SOTR.name=PAYMENTS.name where amount is null group by SOTR.name<o:p></o:p></span></p>
 
-<!--EndFragment-->
+Задания/решения  на написание запросов к БД:
+--
+_1. Отобрать из   таблицы user всех пользователей, у которых level_id=1, skill &gt; 799000 и в   имени встречается буква а_
+SELECT user_name FROM User WHERE level_id = 1 AND skill &gt;   799000 AND user_name LIKE "%a%";
+_2. Удалить всех пользователей, у которых skill меньше 100000_
+DELETE FROM   User WHERE skill &lt; 100000;
+_3. Вывести все данные из таблицы user в порядке убывания по полю   skill_
+SELECT * FROM   User ORDER BY skill DESC;
+_4. Добавить в таблицу user нового пользователя по имени Oleg, с   уровнем 4 и skill =10_
+INSERT INTO   User VALUES(7,'Oleg',4,10);
+_5. Обновить данные в таблице user -&nbsp; для пользователей с level_id меньше 2   проставить skill 2000000_
+UPDATE user   SET skill = 2000000 WHERE level_id &lt; 2;
+_6. Выбрать user_name всех пользователей уровня admin используя   подзапрос_
+SELECT   user_name FROM User WHERE level_id IN (SELECT id FROM level WHERE level_name   = 'Admin');
+_7. Выбрать user_name всех пользователей уровня admin используя   join_
+SELECT   user_name FROM User JOIN level WHERE user.level_id = level.Id AND level_name   = 'Admin';
+
 
 
 
