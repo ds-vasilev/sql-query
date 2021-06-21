@@ -554,3 +554,4 @@ SOTR.name=PAYMENTS.name where amount is null group by SOTR.name<o:p></o:p></span
 
 
 
+проект для DB Browser (SQLite) находится в test1.db
