@@ -698,9 +698,13 @@ td
 Задания/решения  на написание запросов к БД:
 --
 _1. Отобрать из   таблицы user всех пользователей, у которых level_id=1, skill &gt; 799000 и в   имени встречается буква а_
+
 SELECT user_name FROM User WHERE level_id = 1 AND skill &gt;   799000 AND user_name LIKE "%a%";
+
 _2. Удалить всех пользователей, у которых skill меньше 100000_
+
 DELETE FROM   User WHERE skill &lt; 100000;
+
 _3. Вывести все данные из таблицы user в порядке убывания по полю   skill_
 SELECT * FROM   User ORDER BY skill DESC;
 _4. Добавить в таблицу user нового пользователя по имени Oleg, с   уровнем 4 и skill =10_
