@@ -1,4 +1,4 @@
-
+проект для DB Browser (SQLite) находится в test1.db
 
 
 <meta name="ProgId" content="Word.Document">
@@ -726,6 +726,3 @@ _7. Выбрать user_name всех пользователей уровня ad
 SELECT   user_name FROM User JOIN level WHERE user.level_id = level.Id AND level_name   = 'Admin';
 
 
-
-
-проект для DB Browser (SQLite) находится в test1.db
