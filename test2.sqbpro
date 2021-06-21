@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="C:/Sql/test2.db" readonly="0" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><main_tabs open="structure browser pragmas query" current="3"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="911"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><current_table name="4,8:mainPAYMENTS"/><default_encoding codec=""/><browse_table_settings><table schema="main" name="PAYMENTS" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="45"/><column index="2" value="73"/><column index="3" value="59"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table></browse_table_settings></tab_browse><tab_sql><sql name="SQL 1">select * from SOTR where BirthDate between '1977-01-01' AND '1983-12-31'
+</sql><sql name="SQL 2">select * from SOTR where Sex = 'W'
+</sql><sql name="SQL 3">select SOTR.Name, Adress, Zarp from SOTR join Zarp on SOTR.name=Zarp.name AND SOTR.name = 'Федор'
+</sql><sql name="SQL 4">select SOTR.Name, Adress, Zarp from SOTR join Zarp on SOTR.name=Zarp.name 
+union 
+select SOTR.Name, Adress, COALESCE(Zarp, 0) from SOTR left join Zarp on SOTR.name=Zarp.name
+</sql><sql name="SQL 5">select SOTR.Name, sum(Amount) from SOTR join PAYMENTS on SOTR.name=PAYMENTS.name group by SOTR.name
+union
+select SOTR.Name, COALESCE(Amount, 0) from SOTR left join PAYMENTS on SOTR.name=PAYMENTS.name where amount is null group by SOTR.name
+</sql><current_tab id="4"/></tab_sql></sqlb_project>
