@@ -706,14 +706,23 @@ _2. Удалить всех пользователей, у которых skill 
 DELETE FROM   User WHERE skill &lt; 100000;
 
 _3. Вывести все данные из таблицы user в порядке убывания по полю   skill_
+
 SELECT * FROM   User ORDER BY skill DESC;
+
 _4. Добавить в таблицу user нового пользователя по имени Oleg, с   уровнем 4 и skill =10_
+
 INSERT INTO   User VALUES(7,'Oleg',4,10);
+
 _5. Обновить данные в таблице user -&nbsp; для пользователей с level_id меньше 2   проставить skill 2000000_
+
 UPDATE user   SET skill = 2000000 WHERE level_id &lt; 2;
+
 _6. Выбрать user_name всех пользователей уровня admin используя   подзапрос_
+
 SELECT   user_name FROM User WHERE level_id IN (SELECT id FROM level WHERE level_name   = 'Admin');
+
 _7. Выбрать user_name всех пользователей уровня admin используя   join_
+
 SELECT   user_name FROM User JOIN level WHERE user.level_id = level.Id AND level_name   = 'Admin';
 
 
